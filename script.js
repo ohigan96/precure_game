@@ -410,7 +410,8 @@ function restartGame() {
     battleLogLive = [];
     document.getElementById("battleLog").value = "";
 
-    document.getElementById("characterSelect").value = "";
+    document.getElementById("characterSelect").value = "";;
+
     // 表示パネル切り替え
     showSection(["startMenu", "precureImg"]);
 
@@ -786,17 +787,3 @@ document.querySelectorAll(".special-button").forEach((btn) => {
         playerSkill();
     });
 });
-
-// $('select').multipleSelect({
-//     width: 200,
-//     onOpen: function () {
-//         alert("キャラクターを２人まで選べるよ！");
-//     },
-//     onCheckAll: function () {
-//         alert("全選択した際のalert");
-//     }
-// });
-
-
-
-
